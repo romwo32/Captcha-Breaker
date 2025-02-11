@@ -26,7 +26,7 @@ Somne Examples:
 ![image](https://github.com/user-attachments/assets/227cb327-3475-456d-9855-9cd87dc238dd)
 ![image](https://github.com/user-attachments/assets/f7d0024e-0c5b-4475-a66f-00909eab600f)
 ![image](https://github.com/user-attachments/assets/4a6e04b1-968f-4def-aafb-818f689b966e)
-![image](https://github.com/user-attachments/assets/3de76211-9e35-4d3e-b26a-def918042e5f)
+
 
 
 
