@@ -23,6 +23,10 @@ Somne Examples:
 ![image](https://github.com/user-attachments/assets/2d5319e1-c43b-440a-a01c-0f9d0df931aa)
 ![image](https://github.com/user-attachments/assets/c3433463-dd11-43f0-9b2d-18cc877535a3)
 ![image](https://github.com/user-attachments/assets/41b720b4-acbc-4d31-96a1-17919e78cf19)
+![image](https://github.com/user-attachments/assets/227cb327-3475-456d-9855-9cd87dc238dd)
+![image](https://github.com/user-attachments/assets/f7d0024e-0c5b-4475-a66f-00909eab600f)
+
+
 
 # Dataset Splitter
 This repo also includes a short script wich splits the entire dataset in smaller sets for Training Validation and Testing. The Sizes of the sets can be adjusted in percent
