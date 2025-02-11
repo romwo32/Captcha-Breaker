@@ -147,7 +147,12 @@ For evaluation, we compared the model's predictions, using the best weights, wit
 ### Accuracy:
 ![gihubbbild2](https://github.com/user-attachments/assets/2bef8fa8-7586-488f-8d22-765137f2d280)
 
+# CRNN Conclusion
+Achieving an accuracy of 97.2% is a remarkable result for our CRNN model, demonstrating its strong ability to recognize and predict text in images despite challenges like noise, rotation, and random character positioning. This high performance highlights the model's ability to leverage the strengths of both convolutional and recurrent layers—CNNs for effective feature extraction and RNNs (Bidirectional LSTM) for capturing temporal dependencies in the text sequences.
 
+While CRNNs offer great potential, they also have their limitations. They are computationally intensive, which may affect real-time performance, and sourcing diverse, high-quality data for training can be challenging. Moreover, preprocessing is more complex for CRNNs compared to traditional models, and the model may struggle with highly distorted inputs or adversarial attacks.
+
+Nevertheless, CRNNs remain a powerful tool for OCR tasks, offering significant advantages in processing and predicting text sequences in varied conditions. With continued improvements in training data quality, model architecture, and preprocessing techniques, CRNNs can be further enhanced to address their current weaknesses.
 
 
 
