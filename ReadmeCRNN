@@ -1,4 +1,4 @@
-TensorFlow OCR model for reading Captchas
+#TensorFlow OCR model for reading Captchas#
 Training a Custom OCR for Captcha Image Text Extraction with TensorFlow and CTC Loss Function: A Step-by-Step Guide. Using the mltu Library to Simplify the Process
 
 In the previous tutorial, I showed you how to train our custom OCR for simple word images to extract text. There I gave many explanations about where, why, and how we do things, but it had one huge drawback - we used 10 GB training datasets, and not everyone can download that huge fail and train for hours just for fun. So, I created a continuation for that tutorial explaining how to train CTC for simple captcha images.
