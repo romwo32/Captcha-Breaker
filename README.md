@@ -25,7 +25,7 @@ By ensuring that CAPTCHAs remain effective against evolving AI models, we help p
 
 # Our Dataset
 
-This repository contains a script designed to generate text-based CAPTCHAs with randomly assigned colors. The script allows for customization of font, spacing, and rotation parameters before generating each CAPTCHA. The dataset has been curated to exclude CAPTCHA instances that may be too difficult to recognize. For example, to avoid confusion between similarly-shaped characters (like the lowercase 'x' and uppercase 'X'), we have limited our font to 'Arial' the available character set to "023456789ABCDEFHJKLMNPQRTUVWXYabdefghikmnqrty". Additionally, we introduce noise in the form of salt-and-pepper noise and varying line thicknesses and lengths to further challenge recognition.
+This repository contains a script designed to generate text-based CAPTCHAs with randomly assigned colors & 5000 pre generated CAPTCHAS. The script allows for customization of font, spacing, and rotation parameters before generating each CAPTCHA. The dataset has been curated to exclude CAPTCHA instances that may be too difficult to recognize. For example, to avoid confusion between similarly-shaped characters (like the lowercase 'x' and uppercase 'X'), we have limited our font to 'Arial' the available character set to "023456789ABCDEFHJKLMNPQRTUVWXYabdefghikmnqrty". Additionally, we introduce noise in the form of salt-and-pepper noise and varying line thicknesses and lengths to further challenge recognition.
 
 Somne Examples:
 
@@ -38,8 +38,6 @@ Somne Examples:
 ![image](https://github.com/user-attachments/assets/227cb327-3475-456d-9855-9cd87dc238dd)
 ![image](https://github.com/user-attachments/assets/f7d0024e-0c5b-4475-a66f-00909eab600f)
 ![image](https://github.com/user-attachments/assets/4a6e04b1-968f-4def-aafb-818f689b966e)
-
-
 
 
 
