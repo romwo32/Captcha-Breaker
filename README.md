@@ -65,7 +65,30 @@ Decoding and Prediction:
 The model predicts each character in the CAPTCHA and reconstructs the final text.
 
 ## Modell Aritecture:
-//hier erklären iwe es aufgebaut ist evlt ein BIld
+Data Loading:
+  Description: The dataset is loaded and split into training and test data.
+  Split: 80% training dataset, 20% test/validation set.
+  Additional Data Sources: Shared datasets can be used for better performance.
+Preprocessing:
+  Grayscale Conversion: All images are converted to grayscale.
+  Rescaling: Images are resized to a uniform size of 25x67 pixels to ensure consistency in model input.
+Model Architecture:
+  Convolutional Layers:
+    4 convolutional layers extract features and reduce image size.
+    MaxPooling layers reduce dimensions while retaining important features.
+  Dropout Layers:
+    2 dropout layers help prevent overfitting.
+  Dense Layer:
+    A fully connected layer processes the extracted features for final classification.
+Optimization:
+  Hyperparameter Tuning: Adam optimizer is used for automatic learning rate adjustment.
+  Loss Function: Designed to minimize the difference between predicted and actual values.
+CNN Model Training:
+  The model is trained using the processed dataset and optimized parameters.
+  The weights of the layers are gradually improved to maximize recognition accuracy.
+Evaluation and Output:
+  Accuracy Calculation: The model is evaluated using the test set, measuring both individual character and full CAPTCHA accuracy.
+  Visual Representation: Selected results are displayed graphically for better interpretation.
 ## Accuracy:
 //Accuracy gemsamt mit proof einbelenen und erklären aussichen und warum nur so wenig viel.
 
