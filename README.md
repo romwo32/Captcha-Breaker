@@ -190,7 +190,7 @@ While CRNNs offer great potential, they also have their limitations. They are co
 
 Nevertheless, CRNNs remain a powerful tool for OCR tasks, offering significant advantages in processing and predicting text sequences in varied conditions. With continued improvements in training data quality, model architecture, and preprocessing techniques, CRNNs can be further enhanced to address their current weaknesses.
 
-# LightGBM Model for Captcha Recognition
+# LightGBM Model
 LightGBM (Light Gradient Boosting Machine) is a powerful and efficient machine learning model designed for high performance and speed with large datasets. It is particularly well-suited for classification and regression tasks and has been adapted here specifically for captcha recognition.
 
 ## Data Ingestion
@@ -211,9 +211,13 @@ The prepared LightGBM model is trained on the training dataset using the optimiz
 ## Evaluation and Output
 After training, the model is evaluated on the test dataset to verify its accuracy. The accuracy is calculated for both individual characters and the complete captcha. To demonstrate the model's performance and accuracy, results are visualized and compared with the actual labels.
 
-## Conclusion
+## LightGBM Conclusion
 The LightGBM model achieved an accuracy of approximately 80% on the captcha test set. While this is a commendable result, it highlights some limitations of using LightGBM for captcha recognition. The model excels at recognizing individual characters, but it is not fully optimized for solving complete captchas due to its primary focus on single character recognition. This constraint suggests that while LightGBM can be a useful tool for captcha recognition, it might require additional techniques or complementary models to handle the complexities of full captcha sequences effectively.
 
 
+# Conclusion
+Our analysis shows that while machines solve CAPTCHAs significantly faster than humans, they also make more mistakes. Through targeted model optimizations—especially in handling noise and different fonts—we were able to significantly improve recognition accuracy. Despite initial challenges, we achieved all our goals, and the final solution exceeded our expectations.
 
-# Licence
+By implementing techniques such as Levenshtein distance similarity checks and dictionary matching, we further reduced the error rate. However, real-world applications still face challenges, particularly with web scraping due to additional security measures.
+
+Our results confirm that text-based CAPTCHAs no longer provide sufficient security against AI-driven attacks. Therefore, we recommend switching to alternative CAPTCHA methods to ensure future protection.
