@@ -190,28 +190,28 @@ While CRNNs offer great potential, they also have their limitations. They are co
 
 Nevertheless, CRNNs remain a powerful tool for OCR tasks, offering significant advantages in processing and predicting text sequences in varied conditions. With continued improvements in training data quality, model architecture, and preprocessing techniques, CRNNs can be further enhanced to address their current weaknesses.
 
-#LightGBM Model for Captcha Recognition
+# LightGBM Model for Captcha Recognition
 LightGBM (Light Gradient Boosting Machine) is a powerful and efficient machine learning model designed for high performance and speed with large datasets. It is particularly well-suited for classification and regression tasks and has been adapted here specifically for captcha recognition.
 
-##Data Ingestion
+## Data Ingestion
 The first step in the process is data ingestion, where captcha images are split into their individual characters and stored explicitly. This separation is crucial to ensure that the model can accurately process and recognize each component of the captcha.
 
-##Data Splitting
+## Data Splitting
 Once the data is ingested, it is divided into training, testing, and validation sets. Typically, 80% of the data is used for training, while the remaining 20% is split between test and validation sets. This division allows for comprehensive evaluation of the model's performance both during and after training.
 
-##Preprocessing
+## Preprocessing
 Before the actual training, the data needs to be prepared. This step includes scaling pixel values, normalizing the datasets, and cleaning the data to remove any noise or distortions. Proper data preparation is key to improving the model's performance.
 
-##Hyperparameter Optimization with Flaml
+## Hyperparameter Optimization with Flaml
 To achieve the best results, Flaml is used to find the optimal hyperparameters for the LightGBM model. Flaml is an automated tool for hyperparameter optimization that conducts an efficient search for the best parameters, further enhancing the model's performance.
 
-##Machine Training with LightGBM
+## Machine Training with LightGBM
 The prepared LightGBM model is trained on the training dataset using the optimized hyperparameters. This step involves fitting the model to the training data to learn patterns and relationships necessary for correctly recognizing captcha characters.
 
-##Evaluation and Output
+## Evaluation and Output
 After training, the model is evaluated on the test dataset to verify its accuracy. The accuracy is calculated for both individual characters and the complete captcha. To demonstrate the model's performance and accuracy, results are visualized and compared with the actual labels.
 
-##Conclusion
+## Conclusion
 The LightGBM model achieved an accuracy of approximately 80% on the captcha test set. While this is a commendable result, it highlights some limitations of using LightGBM for captcha recognition. The model excels at recognizing individual characters, but it is not fully optimized for solving complete captchas due to its primary focus on single character recognition. This constraint suggests that while LightGBM can be a useful tool for captcha recognition, it might require additional techniques or complementary models to handle the complexities of full captcha sequences effectively.
 
 
