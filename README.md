@@ -48,7 +48,22 @@ This repo also includes a short script wich splits the entire dataset in smaller
 
 # CNN
 ## Overview:
-//hiuer bitte kurze bescheibugn was es ist etc.
+A CNN-based CAPTCHA solver is a deep learning model that uses Convolutional Neural Networks (CNNs) to recognize and decode CAPTCHA images by extracting visual patterns and classifying them into characters.
+
+Building Blocks:
+Convolutional Layer (Feature Extraction)
+Purpose: Identifies spatial features such as edges, shapes, and textures within the CAPTCHA image.
+How it works: Uses convolutional filters to detect patterns, followed by pooling layers to reduce dimensionality while preserving key features.
+Role in CAPTCHA solving: Converts raw pixel data into a structured feature representation.
+
+Fully Connected Layer (Classification):
+Purpose: Interprets the features extracted by the CNN and assigns them to specific characters.
+How it works: The high-level features are passed through dense layers, applying activation functions (e.g., Softmax) to classify each character.
+Role in CAPTCHA solving: Maps the extracted features to corresponding alphanumeric outputs.
+
+Decoding and Prediction:
+The model predicts each character in the CAPTCHA and reconstructs the final text.
+
 ## Modell Aritecture:
 //hier erklären iwe es aufgebaut ist evlt ein BIld
 ## Accuracy:
