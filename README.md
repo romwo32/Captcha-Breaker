@@ -221,3 +221,8 @@ Our analysis shows that while machines solve CAPTCHAs significantly faster than 
 By implementing techniques such as Levenshtein distance similarity checks and dictionary matching, we further reduced the error rate. However, real-world applications still face challenges, particularly with web scraping due to additional security measures.
 
 Our results confirm that text-based CAPTCHAs no longer provide sufficient security against AI-driven attacks. Therefore, we recommend switching to alternative CAPTCHA methods to ensure future protection.
+
+# Credits
+
+This project was made possible by the following open-source repositories:
+This part will be updated soon. If we used a part of your project please reach out tu us.
