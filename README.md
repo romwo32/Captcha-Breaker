@@ -223,6 +223,5 @@ By implementing techniques such as Levenshtein distance similarity checks and di
 Our results confirm that text-based CAPTCHAs no longer provide sufficient security against AI-driven attacks. Therefore, we recommend switching to alternative CAPTCHA methods to ensure future protection.
 
 # Credits
-
 This project was made possible by the following open-source repositories:
-This part will be updated soon. If we used a part of your project please reach out tu us.
+If you are the owner of any code used here and would like specific attribution, please let me know!
