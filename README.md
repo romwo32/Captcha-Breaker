@@ -226,6 +226,7 @@ Our results confirm that text-based CAPTCHAs no longer provide sufficient securi
 This project was made possible by the following open-source repositories:
 
 https://github.com/EVOL-ution/Captcha-Recognition-using-CRNN?tab=MIT-1-ov-file
+
 https://github.com/DrMahdiRezaei/Deep-CAPTCHA/tree/master
 
 If you are the owner of any code used here and would like specific attribution, please let me know!
