@@ -235,4 +235,6 @@ https://github.com/EVOL-ution/Captcha-Recognition-using-CRNN?tab=MIT-1-ov-file
 
 https://github.com/DrMahdiRezaei/Deep-CAPTCHA/tree/master
 
+Minor parts of the work, including the splitting script debugging and optimizing tasks, were assisted by ChatGPT and Claude AI.
+
 If you are the owner of any code used here and would like specific attribution, please let me know!
